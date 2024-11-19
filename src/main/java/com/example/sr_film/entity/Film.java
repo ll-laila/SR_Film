@@ -25,6 +25,7 @@ public class Film {
     private String genre;
     private String imageUrl;
     private String videoUrl;
+    private byte[] content;
 
     @ManyToOne
     @JoinColumn(name = "created_by")
